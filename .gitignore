@@ -1,0 +1,10 @@
+db/
+incremental_db/
+output_files/
+*.bak
+*.rpt
+*.done
+*.summary
+*.smsg
+*.pin
+c5_pin_model_dump.txt
