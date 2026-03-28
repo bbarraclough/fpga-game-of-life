@@ -1,5 +1,6 @@
 `timescale 1ns/1ps
 
+// old testbench when grid was initialised at start of simulation
 module testbench();
 	
 	integer count = 0;
