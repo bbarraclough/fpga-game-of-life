@@ -11,9 +11,11 @@ The rules for Conway's Game of Life are implemented with the grid wrapping at th
 Reset button is checked every game tick to decide whether to display initial grid or next grid state.
 
 ## Structure
+```
 conway_game_of_life.v  - Verilog code with top level module: conway_game_of_life
 conway_game_of_life.qpf - Quartus project file
 conway_game_of_life.qsf - Pin assignments and settings imported from Terasic's DE1-SoC template qsf file
+```
 
 ## How to Run
 Using DE1-SoC, connect VGA cable between board and monitor. Compile code in Quartus and program onto board through JTAG.
