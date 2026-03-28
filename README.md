@@ -1,5 +1,5 @@
 # fpga-game-of-life
-FPGA implementation of a simulation for Conway's Game of Life, rendered on a monitor via a VGA cable. Reset button implemented to set grid state back to glider in top-left corner.
+FPGA implementation of a simulation for Conway's Game of Life, rendered on a monitor via a VGA cable. Reset button implemented to set grid state to glider pattern in top-left corner.
 
 ## Demo
 ![Conway's Game of Life Demo](demo.gif)
