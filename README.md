@@ -10,9 +10,8 @@ The on board 50MHz clock is used to drive a clock divider to create a 25MHz cloc
 The rules for Conway's Game of Life are implemented with the grid wrapping at the edges. Calculation of next grid state is done combinationally and registered to previous grid every game tick.
 Reset button is checked every game tick to decide whether to display initial grid or next grid state.
 
-
-```markdown
 ## Project Structure
+```markdown
 - `conway_game_of_life.v` — Verilog code, top level module
 - `conway_game_of_life.qpf` — Quartus project file  
 - `conway_game_of_life.qsf` — Pin assignments and settings
